@@ -1,10 +1,99 @@
 html {
   box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
   line-height: 1.5;
   list-style-type: none;
-  font-family: Open Sans, sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 1.5rem;
+}
+
+img {
+  width: 100px;
+  display: inline-block;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div > h1 {
+  font-size: .875rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div > p {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h2 {
+  display: flex;
+  font-size: .875rem;
+  font-style: italic;
+  font-weight: normal;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+.main {
+  text-align: center;
+}
+
+div {
+  padding: .75rem;
+  flex-wrap: wrap;
+  flex-direction: column;
+  font-size: .875rem;
+}
+
+.first {
+  width: 25%;
+  display: inline-block;
+  background-color: #e2e2e2;
+}
+
+.second {
+  width: 25%;
+  display: inline-block;
+  background-color: #ccc;
+}
+
+.third {
+  width: 25%;
+  display: inline-block;
+  background-color: #aaa;
+}
+
+.fourth {
+  width: 25%;
+  display: inline-block;
+  background-color: #999;
+}
+
+.btn {
+  display: inline-block;
+  padding: .4em .75em .3em;
+  border: 3px solid #333;
+  border-radius: 8px;
+  text-decoration: none;
+  background-color: #333;
+  color: #fff;
+}
+
+.btn-small {
+  font-size: .875rem;
+}
+
+.btn:hover {
+  background-color: #000;
+  border-color: #000;
 }
