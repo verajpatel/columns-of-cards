@@ -16,66 +16,77 @@ body {
 }
 
 img {
+  width: 100%;
+  display: block;
+}
+
+.cards img {
   width: 100px;
-  display: inline-block;
-  justify-content: space-between;
-  align-items: center;
+  display: block;
+  margin: 0 auto 1.5rem;
 }
 
 div > h1 {
   font-size: .875rem;
-  display: flex;
-  flex-wrap: wrap;
+  margin: 0;
 }
 
-div > p {
-  display: flex;
-  flex-wrap: wrap;
+.cards p {
+  flex-grow: 1;
+  margin: 0 0 1.5rem;
 }
 
 h2 {
-  display: flex;
   font-size: .875rem;
   font-style: italic;
   font-weight: normal;
+  margin-top: 0;
 }
 
 h3 {
   font-size: 2rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
 
 .main {
   text-align: center;
 }
 
-div {
-  padding: .75rem;
-  flex-wrap: wrap;
-  flex-direction: column;
+.cards {
+  display: flex;
+}
+
+.cards h1 {
   font-size: .875rem;
+}
+
+.cards div {
+  padding: .75rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border-left: 1px solid #333;
+  border-right: 1px solid #333;
 }
 
 .first {
   width: 25%;
-  display: inline-block;
   background-color: #e2e2e2;
 }
 
 .second {
   width: 25%;
-  display: inline-block;
   background-color: #ccc;
 }
 
 .third {
   width: 25%;
-  display: inline-block;
   background-color: #aaa;
 }
 
 .fourth {
   width: 25%;
-  display: inline-block;
   background-color: #999;
 }
 
